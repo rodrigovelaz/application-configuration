@@ -5,9 +5,9 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/currency-exchange-service?useSSL=false
-    username: currency-exchange-service
-    password: currency-exchange-service
+    url: jdbc:mysql://localhost:3306/currency_exc?useSSL=false
+    username: currency_exc
+    password: currency_exc
     testWhileIdle: true
     validationQuery: SELECT 1
   jackson:
