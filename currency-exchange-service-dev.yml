@@ -1,6 +1,5 @@
 #server.port=8085
 #server.contextPath=/currencyservice
-#spring.jackson.serialization.write-dates-as-timestamps=false
 #logging.file=/var/log/redmond/currencyservice/currencyservice
 #logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter=debug
 
