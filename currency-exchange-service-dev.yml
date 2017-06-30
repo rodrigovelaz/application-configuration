@@ -1,8 +1,8 @@
 #server.port=8085
 #server.contextPath=/currencyservice
 
-logging
-  file:/var/log/rodrigovelaz/currency-exchange-service/currency-exchange-service.log
+logging:
+  file: /var/log/rodrigovelaz/currency-exchange-service/currency-exchange-service.log
   level.org.springframework.web.filter.CommonsRequestLoggingFilter: debug
 
 spring:
