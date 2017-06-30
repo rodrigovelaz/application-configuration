@@ -1,13 +1,15 @@
 #server.port=8085
 #server.contextPath=/currencyservice
-#logging.file=/var/log/redmond/currencyservice/currencyservice
-#logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter=debug
+
+logging
+  file:/var/log/redmond/currencyservice/currencyservice
+  level.org.springframework.web.filter.CommonsRequestLoggingFilter: debug
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/currency_exc?useSSL=false
-    username: currency_exc
-    password: currency_exc
+    url: jdbc:mysql://localhost:3306/currency_exchange?useSSL=false
+    username: root
+    password: root
     testWhileIdle: true
     validationQuery: SELECT 1
   jackson:
