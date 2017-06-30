@@ -3,7 +3,8 @@
 
 logging:
   file: /var/log/rodrigovelaz/currency-exchange-service/currency-exchange-service.log
-  level.org.springframework.web.filter.CommonsRequestLoggingFilter: debug
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: debug
 
 spring:
   datasource:
