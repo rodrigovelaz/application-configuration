@@ -2,7 +2,7 @@
 #server.contextPath=/currencyservice
 
 logging
-  file:/var/log/redmond/currencyservice/currencyservice
+  file:/var/log/rodrigovelaz/currency-exchange-service/currency-exchange-service.log
   level.org.springframework.web.filter.CommonsRequestLoggingFilter: debug
 
 spring:
