@@ -1,2 +1,2 @@
-# spring-cloud-config
-Spring Cloud Config
+# application-configuration
+Spring Cloud Config repository
