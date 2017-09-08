@@ -27,8 +27,6 @@ spring:
     validationQuery: SELECT 1
   jackson.serialization.write-dates-as-timestamps: false
 
-
-# Validator
 fraudValidator:
   enabled: false
   maxAccountWindow: 10
