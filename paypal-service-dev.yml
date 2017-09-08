@@ -20,7 +20,7 @@ spring:
     hibernate.ddl-auto: create-drop
     hibernate.naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl
   datasource:
-    url: jdbc:mysql://localhost:3306/list?useSSL=false
+    url: jdbc:mysql://localhost:3306/paypal?useSSL=false
     username: root
     password: root
     testWhileIdle: true
