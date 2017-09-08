@@ -26,3 +26,24 @@ spring:
     testWhileIdle: true
     validationQuery: SELECT 1
   jackson.serialization.write-dates-as-timestamps: false
+
+
+# Validator
+fraudValidator:
+  enabled: false
+  maxAccountWindow: 10
+  maxAccountForWindow: 4
+  maxAccountsForToday: 3
+  maxPaymentWindow: 3
+  maxPaymentForWindow: 20
+  maxPaymentForToday: 10
+  maxPaymentOkWindow: 3
+  maxPaymentOkForWindow: 10
+  maxPaymentOkForToday: 5
+  maxSumTotalAmountWindow: 3
+  maxSumTotalAmountForWindow: 1000
+  maxSumTotalAmountForToday: 500
+  maxPaypalWindow: 3
+  maxPaypalForWindow: 5
+  maxPaypalForToday: 3
+  fraudPaypalWhiteList: psg_fraud_paypal_whiteList
