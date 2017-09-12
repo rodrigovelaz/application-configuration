@@ -45,3 +45,9 @@ fraudValidator:
   maxPaypalForWindow: 5
   maxPaypalForToday: 3
   fraudPaypalWhiteList: psg_fraud_paypal_whiteList
+  
+payPal:
+  clientId: AVFyAD7NMVucWJ5SqyZN46werMqXFgzxjqOUIAaTxYtvaydlMjcRqzR73kZWEKgo9NqPpd8zolgwyqin
+  clientSecret: EJSddPiptyNLCK24EtdJ8ZRWZ9-UFfumw-idrAB_Sf0zzBv0coVkKI_WZxm6mUUOvixH6Qe8r138KPJy
+  mode: sandbox
+
