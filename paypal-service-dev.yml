@@ -28,7 +28,7 @@ spring:
   jackson.serialization.write-dates-as-timestamps: false
 
 fraudValidator:
-  enabled: false
+  enabled: true
   maxAccountWindow: 10
   maxAccountForWindow: 4
   maxAccountsForToday: 3
