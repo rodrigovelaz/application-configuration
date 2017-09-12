@@ -50,4 +50,11 @@ payPal:
   clientId: AVFyAD7NMVucWJ5SqyZN46werMqXFgzxjqOUIAaTxYtvaydlMjcRqzR73kZWEKgo9NqPpd8zolgwyqin
   clientSecret: EJSddPiptyNLCK24EtdJ8ZRWZ9-UFfumw-idrAB_Sf0zzBv0coVkKI_WZxm6mUUOvixH6Qe8r138KPJy
   mode: sandbox
+  
+payPalServiceImpl:
+  transactionDescription: Recharge from staging to phone number %s
+  paypalReturnCallbackUrl: https://api.test.topupflow.com/psg/callback/paypal
+  paypalCancelCallbackUrl: https://callback.test.topupflow.com/cb-error?error_code=PAYPAL_CANCEL&error_description=Cancel
+  paypalReturnCallbackUrlRecurrent: X
+  paypalCancelCallbackUrlRecurrent: X
 
