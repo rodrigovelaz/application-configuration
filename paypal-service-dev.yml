@@ -44,7 +44,7 @@ fraudValidator:
   maxPaypalWindow: 3
   maxPaypalForWindow: 5
   maxPaypalForToday: 3
-  fraudPaypalWhiteList: psg_fraud_paypal_whiteList
+  fraudPaypalWhiteList: paypal-service-fraud-whiteList
   
 payPal:
   clientId: AVFyAD7NMVucWJ5SqyZN46werMqXFgzxjqOUIAaTxYtvaydlMjcRqzR73kZWEKgo9NqPpd8zolgwyqin
