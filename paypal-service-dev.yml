@@ -53,8 +53,8 @@ payPal:
   
 payPalServiceImpl:
   transactionDescription: Recharge from staging to phone number %s
-  paypalReturnCallbackUrl: https://api.test.topupflow.com/psg/callback/paypal
-  paypalCancelCallbackUrl: https://callback.test.topupflow.com/cb-error?error_code=PAYPAL_CANCEL&error_description=Cancel
+  paypalReturnCallbackUrl: http://localhost:8080/callback/return
+  paypalCancelCallbackUrl: http://localhost:8080/callback/cancel
   paypalReturnCallbackUrlRecurrent: X
   paypalCancelCallbackUrlRecurrent: X
 
