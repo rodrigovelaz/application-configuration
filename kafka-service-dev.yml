@@ -1,0 +1,11 @@
+logging:
+  file: /var/log/rodrigovelaz/kafka-service/kafka-service.log
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: debug
+
+server:
+  port: 8084
+
+spring:
+  jackson:
+    serialization.write-dates-as-timestamps: false
