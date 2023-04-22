@@ -9,3 +9,10 @@ server:
 spring:
   jackson:
     serialization.write-dates-as-timestamps: false
+  kafka:
+    bootstrap-servers: localhost:29092
+    consumer:
+      group-id: ${spring.application.name}
+      max-poll-records: 10
+    properties:
+      max.poll.interval.ms: 300000
