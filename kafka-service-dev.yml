@@ -16,3 +16,9 @@ spring:
       max-poll-records: 10
     properties:
       max.poll.interval.ms: 300000
+
+kafka:
+  topics: test
+  rest-servers:
+    TOPIC-A: http://url:port/end
+    TOPIC-B: http://url2:port2/end2
