@@ -18,7 +18,6 @@ spring:
       max.poll.interval.ms: 300000
 
 kafka:
-  topics: test
-  
+  topics: topic-a
   rest-servers:
-    test: http://url:port/end
+    topic-a: http://url:port/end
