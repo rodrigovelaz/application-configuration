@@ -19,6 +19,6 @@ spring:
 
 kafka:
   topics: test
+  
   rest-servers:
-    TOPIC-A: http://url:port/end
-    TOPIC-B: http://url2:port2/end2
+    test: http://url:port/end
